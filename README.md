@@ -10,3 +10,5 @@
   * [05-struct](https://github.com/BullFrogLT/LearnLanguage/blob/master/Go/05-struct.md)
   * [06-字符串操作](https://github.com/BullFrogLT/LearnLanguage/blob/master/Go/06-%E5%AD%97%E7%AC%A6%E4%B8%B2%E6%93%8D%E4%BD%9C.md)
   * [07-字符串练习](https://github.com/BullFrogLT/LearnLanguage/blob/master/Go/07-%E5%AD%97%E7%AC%A6%E4%B8%B2-TEST.md)
+
+  * [07-字符串练习](https://github.com/BullFrogLT/LearnLanguage/blob/master/Go/07-%E5%AD%97%E7%AC%A6%E4%B8%B2-TEST.md)
