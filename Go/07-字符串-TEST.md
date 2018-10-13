@@ -12,7 +12,7 @@ var (
 	s2 = "123"
 )
 
-func stringDemo1 (){
+func StringDemo1 (){
 	// 字符串定义
 	var sd1 = "abc"
 	fmt.Println(sd1)
@@ -23,7 +23,7 @@ func stringDemo1 (){
 	fmt.Println(s4)
 }
 
-func stringDemo2 (){
+func StringDemo2 (){
 	// 判断字符串是否包含某个内容，全量匹配
 	// func Contains(s, substr string) bool
 	fmt.Println(strings.Contains(s1, "bc1"))		//Output:ture
@@ -125,7 +125,7 @@ func stringDemo2 (){
 }
 
 
-func stringDemo3(){
+func StringDemo3(){
 	// Append 系列函数将整数等转换为字符串后，添加到现有的字节数组中
 	s5 := make([]byte , 0, 100)
 	s5 = strconv.AppendInt(s5, 4567, 10)
@@ -145,7 +145,7 @@ func stringDemo3(){
 	//Output:false 123.23 1234 12345 1023
 }
 
-func stringDemo4(){
+func StringDemo4(){
 	// strings.HasPrefix(s, prefix string) bool
 	// HasPrefix 判断字符串 s 是否以 prefix 开头
 	s6 := "This is an example of a string"
@@ -167,10 +167,10 @@ func stringDemo4(){
 
 func main() {
 	// 字符串操作实例
-	//stringDemo1()
-	stringDemo2()
-	//stringDemo3()
-	//stringDemo4()
+	//StringDemo1()
+	//StringDemo2()
+	//StringDemo3()
+	StringDemo4()
 }
 ```
 
